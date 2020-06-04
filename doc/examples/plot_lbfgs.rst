@@ -133,7 +133,7 @@ ray.put(theta)`` before passing it into the remote functions. If we had written
 
 .. code-block:: python
 
-  [actor.loss(theta_id) for actor in actors]
+  [actor.loss(theta) for actor in actors]
 
 instead of
 
